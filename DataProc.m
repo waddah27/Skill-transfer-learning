@@ -5,7 +5,8 @@ fc_smooth=3; % cutoff frequency Butterworth filter
 
 %% ECG LP filter design
 Fpass1 = 0.1;         % Passband Frequency
-Fstop1 = 3;          % Stopband Frequency
+% Change the stopband frequency from 3 to 5
+Fstop1 = 5;          % Stopband Frequency
 Apass1 = 1;           % Passband Ripple (dB)
 Astop1 = 80;          % Stopband Attenuation (dB)
 match = 'passband';  % Band to match exactly
